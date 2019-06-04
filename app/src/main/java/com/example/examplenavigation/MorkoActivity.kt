@@ -12,8 +12,7 @@ class MorkoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_morko)
 
         Glide.with(this)
-            .load("https://antroblogi.fi/wp-content/uploads/2019/05/AB-Uutiset-n-2-1170x550.jpg")
-            .centerCrop()
+            .load("https://media.giphy.com/media/8YTKeVN9F3gFFaunRC/giphy.gif")
             .into(image)
     }
 }
